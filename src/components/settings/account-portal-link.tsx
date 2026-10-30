@@ -2,7 +2,7 @@
 
 import { useTranslations } from 'next-intl';
 import { ArrowRight } from 'lucide-react';
-import { useIsMobile } from '@Hashibutogarasu/ui';
+import { useIsMobile } from '@karasu-lab/ui';
 import { cn } from '@/lib/utils';
 
 interface AccountPortalLinkProps {

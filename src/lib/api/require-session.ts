@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server';
 
-import { getSessionUser, type SessionUser } from '@Hashibutogarasu/utils/server';
+import { getSessionUser, type SessionUser } from '@karasu-lab/utils/server';
 
 type SessionResult = { user: SessionUser; error: null } | { user: null; error: NextResponse };
 

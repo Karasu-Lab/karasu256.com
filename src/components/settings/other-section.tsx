@@ -3,7 +3,7 @@
 import { useEffect, useState } from 'react';
 import { Ban } from 'lucide-react';
 import { useTranslations } from 'next-intl';
-import { Badge, Button, ConfirmDialog, R2Image, SettingsAccordion, SettingsItem } from '@Hashibutogarasu/ui';
+import { Badge, Button, ConfirmDialog, R2Image, SettingsAccordion, SettingsItem } from '@karasu-lab/ui';
 import { listAuthorizedApps, revokeAuthorizedApp, type AuthorizedAppSummary } from '@/lib/api/other';
 
 /**

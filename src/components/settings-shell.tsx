@@ -5,8 +5,8 @@ import Link from 'next/link';
 import { usePathname, useRouter } from 'next/navigation';
 import { Bug, Layers, User } from 'lucide-react';
 import { useTranslations } from 'next-intl';
-import { SettingsSidebar, SettingsSidebarLayout, toast, type SidebarNavItem, type SettingsSidebarUser } from '@Hashibutogarasu/ui';
-import { signOutAction } from '@Hashibutogarasu/utils/server/sign-out';
+import { SettingsSidebar, SettingsSidebarLayout, toast, type SidebarNavItem, type SettingsSidebarUser } from '@karasu-lab/ui';
+import { signOutAction } from '@karasu-lab/utils/server/sign-out';
 import { listAccounts, switchAccount, removeAccount, type AccountSummary } from '@/lib/api/accounts-proxy';
 
 const NAV_ITEMS_DEFS = [
