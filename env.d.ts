@@ -16,7 +16,7 @@ declare global {
        * `R2StorageProvider`'s props instead.
        */
       CDN_URL: string;
-      FIREBASE_ADMIN_PROJECT_ID: string;
+      GOOGLE_CLOUD_PROJECT_ID: string;
       FIREBASE_ADMIN_CLIENT_EMAIL: string;
       FIREBASE_ADMIN_PRIVATE_KEY: string;
     }
