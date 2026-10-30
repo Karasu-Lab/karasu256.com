@@ -1,9 +1,9 @@
 import { NextResponse } from 'next/server';
 import { eq } from 'drizzle-orm';
 import { z } from 'zod';
-import { getDb } from '@Hashibutogarasu/db';
-import { users } from '@Hashibutogarasu/db/schema';
-import { Permissions } from '@Hashibutogarasu/api-permissions';
+import { getDb } from '@karasu-lab/db';
+import { users } from '@karasu-lab/db/schema';
+import { Permissions } from '@karasu-lab/api-permissions';
 import { APIKeyRoute, OauthAppRoute, RequirePermission } from '@/lib/api/route-auth';
 
 const patchBodySchema = z.object({ name: z.string().nullable() });

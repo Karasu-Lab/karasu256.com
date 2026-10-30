@@ -1,5 +1,5 @@
 import { NextResponse } from 'next/server';
-import { vercelProtectionBypassHeaders } from '@Hashibutogarasu/utils/server';
+import { vercelProtectionBypassHeaders } from '@karasu-lab/utils/server';
 
 /**
  * Digital Asset Links statements for this host, which is the passkey RP ID,

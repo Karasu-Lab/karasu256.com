@@ -1,7 +1,7 @@
 'use client';
 
 import { useTranslations } from 'next-intl';
-import { UserAvatar } from '@Hashibutogarasu/ui';
+import { UserAvatar } from '@karasu-lab/ui';
 import { AccountPortalLink } from './account-portal-link';
 
 interface ProfileSectionProps {

@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import { getTranslations } from 'next-intl/server';
-import { getSessionUser } from '@Hashibutogarasu/utils/server';
+import { getSessionUser } from '@karasu-lab/utils/server';
 import { ProfileSection } from '@/components/settings/profile-section';
 
 export async function generateMetadata(): Promise<Metadata> {

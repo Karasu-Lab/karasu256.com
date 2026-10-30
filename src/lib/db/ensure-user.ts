@@ -1,5 +1,5 @@
-import { getDb } from '@Hashibutogarasu/db';
-import { users } from '@Hashibutogarasu/db/schema';
+import { getDb } from '@karasu-lab/db';
+import { users } from '@karasu-lab/db/schema';
 import { sql } from 'drizzle-orm';
 
 /**

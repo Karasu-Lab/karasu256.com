@@ -1,4 +1,4 @@
-import { ApiError } from '@Hashibutogarasu/utils/client';
+import { ApiError } from '@karasu-lab/utils/client';
 import { authClient, bridgeFirebaseSession } from '@/lib/auth/client';
 
 export interface AuthorizedAppSummary {
