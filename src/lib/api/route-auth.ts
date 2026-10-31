@@ -1,6 +1,7 @@
 import { oauthProviderResourceClient } from '@better-auth/oauth-provider/resource-client';
 import { permissionBitmask, type AbstractPermission } from '@karasu-lab/api-permissions';
-import { createRouteAuth, vercelProtectionBypassHeaders } from '@karasu-lab/utils/server';
+import { vercelProtectionBypassHeaders } from '@karasu-lab/utils/server';
+import { createRouteAuth } from '@karasu-lab/utils/server/route-guards';
 
 /**
  * better-auth's internal `baseURL` — and therefore the JWT `iss`/`aud` and
